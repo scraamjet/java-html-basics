@@ -1,0 +1,40 @@
+#td1{
+	vertical-align: top;
+}
+#td2{
+	text-align: center; 
+}
+
+#smth {
+	color: green;
+}
+#smth2 {
+	color: red;
+}
+#ITIS1{
+	font-size: 27px;
+}
+#ITIS2{
+	font-size: 13px;
+	vertical-align: top;
+}
+#ITIS3{
+	font-size: 19px;
+	vertical-align:top;
+}
+#ITIS4{
+	font-size: 19px;
+	vertical-align:top;
+}
+#ITIS5{
+	font-size: 15px;
+	vertical-align: top;
+}
+#TOP{
+	vertical-align:top;
+	text-align:center;
+}
+.ITIS6{
+	vertical-align:top;
+	padding-top:40px;
+}
