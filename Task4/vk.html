@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Артем Шабунин</title>
+        <link href = "style.css" rel = "stylesheet" type = "text/css"/>
+        <script src="https://use.fontawesome.com/fcb8e39819.js"></script>
+    </head>
+    <body bgcolor="#EDEEF0">
+            <div class ="VKheader">
+                <img src="Photo/vklogo.jpg" height="40px">
+                <div style="display: block">
+                    <div class = "searchBox">
+                        <i class = "fa fa-search" aria-hidden="true" id = "searchsize"></i>
+                        <input type = "search" placeholder="Поиск" class = "input1">
+                    </div>
+                    <div class = myPhotoBackground>
+                    <img src="Photo/MyPhoto.jpg">
+                        <br>
+                        <input type = submit value="Редактировать" id = "edit">
+                        <button id = dot>
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </button>
+                        <br>
+                        <small style="color: #A28282;font-family:'Roboto Thin',serif;font-weight: 100;font-size: 14px">Профиль закрыт настройками<br>
+                            приватности <i class="fa fa-circle" aria-hidden="true" style="font-size: 2px;vertical-align: top;
+                        padding-top:12px;padding-left:3px;padding-bottom: 21px"></i>
+                            <a href="#" style="color:#3195C8;font-family:'Roboto Thin',serif;font-weight: 100;font-size: 14px;
+                             margin-left: 5px;text-decoration: none">
+                                Изменить
+                            </a>
+                        </small>
+                    </div>
+                    <div id = friends>
+                        <div style="display: flex">Друзья<div style="color:#A28282;margin-left:6px ">144</div>
+                        <a href="#" style="margin-left: 68px;color:#A28282;;text-decoration: none">обновления</a>
+                    </div>
+                        <div style="display: flex;margin-top: 12px;">
+                        <img src = "Photo/MiniPhoto1.jpg" style="border-radius: 40px;margin-left: 7px">
+                            <img src = Photo/MiniPhoto2.jpg style="border-radius: 40px;margin-left: 20px">
+                            <img src = Photo/MiniPhoto3.jpg style="border-radius: 40px;margin-left: 21px">
+                            </div>
+                        <div style="margin-top: 6px">
+                            <a href="#" style=" text-decoration:none;margin-left: 14px;">Булат</a>
+                            <a href="#" style=" text-decoration:none;margin-left: 34px;">Расул</a>
+                            <a href="#" style=" text-decoration:none;margin-left: 32px;">Павел</a>
+                            </div>
+                        <div style="display: flex;margin-top: 12px;">
+                            <img src = "Photo/MiniPhoto4.jpg" style="border-radius: 40px;margin-left: 7px">
+                            <img src = "Photo/MiniPhoto5.jpg" style="border-radius: 40px;margin-left: 20px">
+                            <img src = "Photo/MiniPhoto6.jpg" style="border-radius: 40px;margin-left: 21px">
+                        </div>
+                        <div style="margin-top: 6px">
+                            <a href="#" style=" text-decoration:none;margin-left: 11px;">Ильдар</a>
+                            <a href="#" style=" text-decoration:none;margin-left: 23px;">Рустем</a>
+                            <a href="#" style=" text-decoration:none;margin-left: 26px;">Данил</a>
+                        </div>
+                        <div style="margin-top: 10px;margin-left: -12px">
+                            <hr style="opacity: 0.6">
+                        </div>
+                        <div style="display: flex">
+                            Друзья онлайн<div style="color:#A28282;margin-left:6px ">26</div>
+                        </div>
+                        <div style="display: flex;margin-top: 12px;">
+                        <img src = "Photo/MiniPhoto8.jpg" style="border-radius: 40px;margin-left: 7px">
+                        <img src = Photo/MiniPhoto1.jpg style="border-radius: 40px;margin-left: 20px">
+                        <img src = Photo/MiniPhoto3.jpg style="border-radius: 40px;margin-left: 21px">
+                    </div>
+                    <div style="margin-top: 6px">
+                        <a href="#" style=" text-decoration:none;margin-left: 10px;">Полина</a>
+                        <a href="#" style=" text-decoration:none;margin-left: 27px;">Булат</a>
+                        <a href="#" style=" text-decoration:none;margin-left: 31px;">Павел</a>
+                    </div>
+                    <div style="display: flex;margin-top: 12px;">
+                        <img src = "Photo/MiniPhoto7.jpg" style="border-radius: 40px;margin-left: 7px">
+                        <img src = "Photo/MiniPhoto4.jpg" style="border-radius: 40px;margin-left: 20px">
+                        <img src = "Photo/MiniPhoto2.jpg" style="border-radius: 40px;margin-left: 21px">
+                    </div>
+                        <div style="margin-top: 6px">
+                            <a href="#" style=" text-decoration:none;margin-left: 16px;">Азат</a>
+                            <a href="#" style=" text-decoration:none;margin-left: 34px;">Ильдар</a>
+                            <a href="#" style=" text-decoration:none;margin-left: 28px;">Расул</a>
+                        </div>
+                    </div>
+                    <div style="color: black" id = subscribes>
+                        <div style="display: flex">
+                        Подписки <div style="color:#A28282;margin-left:6px ">20</div>
+                        </div>
+                        <div style="display:flex;margin-top: 15px">
+                            <img src="Photo/Arsenal.jpg" style="border-radius: 40px;margin-left: 0;height: 40px">
+                            <div style="margin-left: 6px;font-size: 15px"><a href="#" style="
+                            text-decoration: none ">Arsenal Club | Арсенал <br>Лондон</a><br>
+                                <a style="color: #A28282;font-size: 13px">Фан-клуб</a></div></div>
+                        <div style="display:flex;margin-top: 15px">
+                            <img src="Photo/RealFootbal.jpg" style="border-radius: 40px;margin-left: 0;height: 40px">
+                            <div style="margin-left: 6px;font-size: 15px"><a href="#" style="
+                            text-decoration: none ">Реальный футбол</a><br>
+                                <a style="color: #A28282;font-size: 13px">Мы знаем о футболе все!</a></div></div>
+                        <div style="display:flex;margin-top: 15px">
+                            <img src="Photo/DU.jpg" style="border-radius: 40px;margin-left: 0;height: 40px">
+                            <div style="margin-left: 6px;font-size: 15px"><a href="#" style="
+                            text-decoration: none ">Подслушано Деревня<br>Универсиады</a><br>
+                                <a style="color: #A28282;font-size: 13px">Группа всех общежитий<br>КФУ</a></div></div>
+                        <div style="display:flex;margin-top: 15px">
+                            <img src="Photo/ITISrequest.jpg" style="border-radius: 40px;margin-left: 0;height: 40px">
+                            <div style="margin-left: 6px;font-size: 15px"><a href="#" style="
+                            text-decoration: none ">ITIS request</a><br>
+                                <a style="color: #A28282;font-size: 13px;">Публичная страница</a></div></div>
+                        <div style="display:flex;margin-top: 15px">
+                            <img src="Photo/Experiment.jpg" style="border-radius: 40px;margin-left: 0;height: 40px">
+                            <div style="margin-left: 6px;font-size: 15px"><a href="#" style="
+                            text-decoration: none ">Экспериментатор</a><br>
+                                <a style="color: #A28282;font-size: 13px;">Подпишись! Ты удивишься!</a></div></div>
+                        <div style="margin-top: 15px;margin-left: -12px">
+                            <hr style="opacity: 0.6">
+                        </div>
+                        <div style="display: block" id = videoaudio>
+                            <div style="display: flex">Видеозаписи<div style="color:#A28282;margin-left:6px ">2</div></div>
+                            <div style="margin-top: 20px">
+                                <iframe src="https://vk.com/video_ext.php?oid=-18972925&id=456240664&hash=fc8a1232737d3e83" width="210" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div>
+                               <a href="https://vk.com/video_ext.php?oid=-18972925&id=456240664&hash=fc8a1232737d3e83"
+                               style="text-decoration: none;font-size: 14px;">
+                                   Прощальное видео с Венгером <br>- Спасибо, Арсен!
+                               </a>
+                            </div>
+                            <div style="margin-top: 20px">
+                                <iframe src="https://vk.com/video_ext.php?oid=-8722610&id=456258137&hash=15889679a53971c9" width="210" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div>
+                                <a href="https://vk.com/video_ext.php?oid=-8722610&id=456258137&hash=15889679a53971c9"
+                                   style="text-decoration: none;font-size: 14px;">
+                                    Болельщик Тоттенхэма в пресс<br> зале Арсенала
+                                </a>
+                            </div>
+                            <div style="margin-top: 15px;margin-left: -12px">
+                                <hr style="opacity: 0.6">
+                            </div>
+                            <div style="display: flex">
+                            Аудиозаписи<div style="color:#A28282;margin-left:6px ">626</div>
+                            </div>
+                                <button style="display: flex;margin-top: 14px;margin-left: -7px;width: 220px;outline: none;border: none"
+                                        class = music>
+                                    <img src="Photo/Nevermind.jpg" style="height:40px;border-radius: 5px;font-size: 14px ">
+                                    <div style="display: block;margin-left:3px ">Nevermind
+                                        <div>
+                                    <a style="color: #A28282;font-size: 13px;margin-left: 9px">Dennis Lloyd</a>
+                                        </div>
+                                    </div>
+                                    </button>
+                            <button style="display: flex;margin-top: 7px;margin-left: -7px;width: 220px;outline: none;border: none"class = music>
+                                <img src="Photo/Regard.jpg" style="height:40px;border-radius: 5px;font-size: 14px ">
+                                <div style="display: block;margin-left:6px ">Ride it
+                                    <div>
+                                        <a style="color: #A28282;font-size: 13px;margin-left: 6px">Regard</a>
+                                    </div>
+                                </div>
+                            </button>
+                            <button style="display: flex;margin-top: 7px;margin-left: -7px;width: 220px;outline: none;border: none;"
+                                    class="music">
+                                <img src="Photo/Day Nite.jpg" style="height:40px;border-radius: 5px;font-size: 14px ">
+                                <div style="display: block;margin-left:-8px ">Day N Nite
+                                    <div>
+                                        <a style="color: #A28282;font-size: 13px;padding-left:20px">Stefy De Cicco</a>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <i class="fa fa-step-backward" id = "backward" aria-hidden="true"></i>
+                <i class="fa fa-play" id = "play"aria-hidden="true"></i>
+                <i class="fa fa-step-forward" id = "step-forward" aria-hidden="true"></i>
+                    <div style="text-align: center;margin-left:15px;font-size:16px;
+                    font-weight:200; color:#BFCFE0;margin-top: 12px;">
+                        <small>Dennis Lloyd - Nevermind</small>
+                    </div>
+                <div style="display: flex;padding-left: -60px;position: relative">
+                    <div id = Artem>
+                        Артем
+                    </div>
+                       <img src="Photo/MyMiniPhoto.jpg" style="border-radius: 20px;
+                       height: 28px;margin-left: 13px;margin-top:9px ">
+                     <i class="fa fa-angle-down" aria-hidden="true" style="margin-left:8px;
+                     font-weight: 100;font-size:14px;color:#BFCFE0;margin-top: 15px"></i>
+                </div>
+                <div style="display: block;margin-left: -595px;margin-top: 57px;position: relative">
+                    <div style="display:block;background-color: white;color: black;height: 255px;width: 550px">
+                        <div style="display: flex"><a style="padding-left:25px;position:relative;top:15px;font-weight: 400">Артем Шабунин</a>
+                            <small style="position: relative;top: 20px;left: 320px;font-size: 14px;font-weight: 100;color:#A28282;">Online</small>
+                        </div>
+                        <small style="position: relative;top: 12px;left: 25px;font-size: 14px;font-weight: 100;
+                        color:#A28282;">Изменить статус </small>
+                        <hr style="position: relative;top:20px;width: 500px;opacity: 0.2">
+                        <div style="display: block">
+                            <div style="display: flex;">
+                                <small style="position: relative;top: 12px;left: 25px;font-size: 16px;font-weight: 100;
+                        color:#A28282;">Дата рождения: </small>
+                                <a href="#" style="position: relative;top: 12px;left:  100px;font-size: 16px;font-weight: 100;
+                       text-decoration: none;">7 июля 2001 г.</a>
+                            </div>
+                            <div style="display: flex;position: relative;top:10px" >
+                                <small style="position: relative;top: 12px;left: 25px;font-size: 16px;font-weight: 100;
+                        color:#A28282;">Город: </small>
+                                <a href="#" style="position: relative;top: 12px;left:  164px;font-size: 16px;font-weight: 100;
+                       text-decoration: none;">Казань</a>
+                            </div>
+                            <button id="information">
+                                Показать подробную информацию
+                            </button>
+                            <hr style="position: relative;top:40px;width: 550px;opacity: 0.2">
+                            <div style="display: flex">
+                                <button style="position: relative;top:40px;left: 100px;background-color: white;outline: none;border: none">
+                                <a href="#" style="position: relative;text-decoration: none;font-size: 20px">144</a>
+                                    <br>
+                                    <small style="color: #A28282;font-size: 12px">друга</small>
+                                </button>
+                                <button style="position: relative;top:40px;left: 113px;background-color: white;outline: none;border: none">
+                                    <a href="#" style="position: relative;text-decoration: none;font-size: 20px">3</a>
+                                    <br>
+                                    <small style="color: #A28282;font-size: 12px">фотографии</small>
+                                </button>
+                                <button style="position: relative;top:40px;left: 123px;background-color: white;outline: none;border: none">
+                                    <a href="#" style="position: relative;text-decoration: none;font-size: 20px">2</a>
+                                    <br>
+                                    <small style="color: #A28282;font-size: 12px">видеозаписи</small>
+                                </button>
+                                <button style="position: relative;top:40px;left: 133px;background-color: white;outline: none;border: none">
+                                    <a href="#" style="position: relative;text-decoration: none;font-size: 20px">626</a>
+                                    <br>
+                                    <small style="color: #A28282;font-size: 12px">аудиозаписей</small>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative;background-color: white;display: block;top:14px;height: 185px">
+                        <div style="position: relative;display: flex;color: black;font-size: 14px;font-weight: 200;
+                        left: 15px;top: 15px">
+                            Мои фотографии
+                            <div style="color:#A28282;margin-left:6px ">3</div>
+                        <a href="#" style="text-decoration:none;padding-left: 304px;font-size: 13px;color: #A28282"> показать на карте</a>
+                        </div>
+                        <div style="position: relative;display: flex;">
+                        <img src="Photo/MyPhoto2.jpg" height="120" style="top:30px;left:18px;position: relative">
+                            <img src="Photo/MyPhoto.jpg" height="120" style="top:30px;left:30px;position: relative">
+                            <img src="Photo/MyPhoto3.jpg" height="120" style="top:30px;left:42px;position: relative">
+                        </div>
+                </div>
+                    <div style="display: flex;position: relative;background-color: white;top:30px; ">
+                        <img src="Photo/MyMiniPhoto.jpg" height="28"style="border-radius:40px;top:10px;
+                        position: relative;margin-left:20px">
+                        <input type="text" id = "inputText"placeholder="Что у Вас нового?">
+                        <i class="fa fa-camera" aria-hidden="true" style=" color: #355B87;
+                        top:20px;position: relative;font-size: 15px"></i>
+                        <i class="fa fa-film" aria-hidden="true" style=" color: #355B87;
+                        top:19px;left:12px;position: relative;font-size: 15px"></i>
+                        <i class="fa fa-music" aria-hidden="true" style=" color: #355B87;
+                        top:19px;left:23px;position: relative;font-size: 15px"></i>
+                        <i class="fa fa-dedent" aria-hidden="true" style=" color: #355B87;
+                        top:19px;left:35px;position: relative;font-size: 15px"></i>
+
+                    </div>
+                </div>
+            </div>
+                <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Моя страница">
+                </a>
+                </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Новости">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Сообщения">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Друзья" style="padding-left:10px ">
+                </a>
+            </div>
+            <div class="submitborders">
+                <div class="buttonSearch">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Сообщества">
+                </div>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-camera" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Фотографии">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-music" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Музыка" style="padding-left: 10px">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-film" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Видео">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Игры">
+                </a>
+            </div>
+            <hr width="120px" align="left" class = "hr1">
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Работа">
+                </a>
+            </div>
+            <hr width="120px" align="left" class = "hr1">
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Товары">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Закладки">
+                </a>
+            </div>
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Документы">
+                </a>
+            </div>
+            <hr width="120px" align="left" class="hr1">
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-certificate" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Коронавирус">
+                </a>
+            </div>
+            <hr width="120px" align="left" class="hr1">
+            <div class="submitborders">
+                <a class="buttonSearch">
+                    <i class="fa fa-th-large" aria-hidden="true"></i>
+                    <input type = "submit" class="submit1" value="Мои гости">
+                </a>
+            </div>
+        </body>
+</html>

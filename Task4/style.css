@@ -1,0 +1,184 @@
+.VKheader{
+    display: flex;
+    vertical-align: top;
+    background-color:#4A76A8;
+    border: #4A76A8;
+    color:white;
+    padding-left: 260px;
+    font-size:20px;
+    font-weight:900;
+    margin-top: 5px;
+    height: 45px;
+    position: relative;
+    top:-7px;
+    width:1250px;
+    left: -10px;
+}
+.searchBox{
+    margin-top:10px;
+    background-color:#224B7A;
+    width: 220px;
+    vertical-align: center;
+    margin-left: 125px;
+    border-radius: 27px;
+    height:  24px;
+}
+.input1{
+    padding-top: 0;
+    padding-bottom: 0 ;
+    background-color:#224B7A;
+    vertical-align: bottom;
+    border: none;
+    outline: none;
+    width: 190px;
+}
+.submit1:hover{
+    background-color: #D3D9DE;
+}
+#searchsize {
+    font-size: 15px;
+    color:#355B87;
+    margin-left: 5px;
+}
+.submitborders
+{   margin-left: 255px;
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: transparent;
+    border-color: transparent;
+    text-align: left;
+    width: 130px;
+    color: #355B87;
+    position: relative;
+}
+.submit1{
+    border: none;
+    outline: none;
+    color: #355B87;
+}
+.hr1{
+    margin-left: 280px;
+    opacity: 0.2;
+}
+.fa-bell{
+    color: #224B7A;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 12px;
+}
+.iconSearch{
+    background: none;
+    border: none;
+    cursor: text;
+    appearance: none;
+    position:relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+#backward{
+    color:#BFCFE0;
+    margin-left: 32px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#play{
+    color:#BFCFE0;
+    margin-left: 15px;
+    margin-top: 13px;
+    font-size: 18px;
+}
+#step-forward{
+    color:#BFCFE0;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#Artem{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    margin-left: 210px;
+    font-size: 14px;
+}
+.myPhotoBackground{
+    background-color: white;
+    margin-top: 23px;
+    margin-left: 127px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+#edit{
+    padding: 7px 35px;
+    background-color: #D3D9DE;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    color: #355B87;
+}
+#dot{
+    margin-left: 7px;
+    border: none;
+    padding: 7px 8px;
+    outline: none;
+    color: #355B87;
+}
+#friends{
+    display: block;
+    background-color: white;
+    margin-left: 127px;
+    margin-top: 15px;
+    color: black;
+    font-family:'Roboto Thin',serif;
+    font-weight: 100;
+    font-size: 14px;
+    height: 410px;
+    padding-left: 12px;
+    padding-top: 10px;
+    position: relative;
+}
+#subscribes{
+    display: block;
+    background-color: white;
+    margin-left: 127px;
+    margin-top: 15px;
+    color: black;
+    font-family:'Roboto Thin',serif;
+    font-weight: 100;
+    font-size: 14px;
+    height: 1010px;
+    padding-left: 12px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    position: relative;
+}
+#videoaudio{
+    background-color: white;
+    height: 100px;
+}
+#information{
+    background-color: white;
+    position: relative;left: 17px;padding-left: 150px;padding-top: 5px;padding-bottom: 5px;
+    padding-right: 150px;border:none;top:40px;
+    outline: none;
+}
+#information:hover{
+    background-color: #D3D9DE;
+}
+#inputText{
+    font-size: 12px;
+    border: none;
+    padding: 9px;
+    margin: 10px;
+    width: 330px;
+    outline: none;
+}
+.music{
+    background-color: white;
+}
+.music:hover{
+    background-color: #D3D9DE;
+}
