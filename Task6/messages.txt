@@ -1,0 +1,9 @@
+0>1)$Hello!How Are you?|
+1>0)$I'm FIne and you?|
+0>1)$Me too!|
+0>4)$Hi!|
+1>5)$I'm FIne and you?|
+7>6)$Как ты сдал Ильину на 100 баллов?|
+6>7)$Я учил!|
+11>1)$Nice game bro!|
+1>11)$Thanks, it was really cool!|

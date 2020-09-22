@@ -1,0 +1,83 @@
+Name:Thomas Green;
+ID:0;
+Age:25;
+Sex:M;
+Country:England;
+City:London;
+#
+Name:James Rodriguez;
+ID:1;
+Age:29;
+Sex:M;
+Country:England;
+City:Liverpool;
+#
+Name:Artem Shabunin;
+ID:2;
+Age:19;
+Sex:M;
+Country:Russia;
+City:Kazan;
+#
+Name:Jack Carver;
+ID:3;
+Age:23;
+Sex:M;
+Country:USA;
+City:New York;
+#
+Name:Jane Marks;
+ID:4;
+Age:18;
+Sex:F;
+Country:USA;
+City:Los Angeles;
+#
+Name:Kate Summer;
+ID:5;
+Age:30;
+Sex:F
+Country:Ireland;
+City:Dublin;
+#
+Name:Galiev Bulat;
+ID:6;
+Age:19;
+Sex:M;
+Country:Russia;
+City:Kazan;
+#
+Name:Alexander Ivanov;
+ID:7;
+Age:45;
+Sex:M;
+Country:Russia;
+City:Irkutsk;
+#
+Name:Elena Egorova;
+ID:8;
+Age:25;
+Sex:F;
+Country:Russia;
+City:Moscow;
+#
+Name:Caitlin Higgins;
+ID:9;
+Age:43;
+Sex:F;
+Country:Australia;
+City:Sidney;
+#
+Name:Maria Ferrari;
+ID:10;
+Age:22;
+Sex:F;
+Country:Italy;
+City:Rome;
+#
+Name:Jordi Alba;
+ID:11;
+Age:31;
+Sex:M;
+Country:Spain;
+City:Barcelona;
